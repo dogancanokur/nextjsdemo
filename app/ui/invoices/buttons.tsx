@@ -36,3 +36,7 @@ export function DeleteInvoice({ id }: { id: string }) {
     </form>
   );
 }
+
+export function CreateCustomer() {
+  return <Link href={'/dashboard/customer/create'}></Link>;
+}
