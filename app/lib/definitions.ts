@@ -17,13 +17,13 @@ export type Customer = {
 };
 
 export type Invoice = {
-  id: string;
+  id: string; // Will be created on the database
   customer_id: string;
-  amount: number;
-  date: string;
-  // In TypeScript, this is called a string union type.
+  amount: number; // Stored in cents
+  // In TypeScript, this is called a string union type. (for status field)
   // It means that the "status" property can only be one of the two strings: 'pending' or 'paid'.
   status: 'pending' | 'paid';
+  date: string;
 };
 
 export type Revenue = {
