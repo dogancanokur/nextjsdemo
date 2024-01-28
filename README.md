@@ -18,3 +18,17 @@ For more information, see the [course curriculum](https://nextjs.org/learn) on t
 - **Form Validation and Accessibility:** How to do server-side form validation and tips for improving accessibility.
 - **Authentication:** How to add authentication to your application using NextAuth.js and Middleware.
 - **Metadata:** How to add metadata and prepare your application for social sharing.
+
+### Dashboard
+
+<img src="/document/dashboard.png" width="720">
+
+### Invoices
+
+<img src="/document/invoices.png" width="720">
+
+### Customers
+
+<img src="/document/customers.png" width="720">
+
+##### Thanks to Vercel.
